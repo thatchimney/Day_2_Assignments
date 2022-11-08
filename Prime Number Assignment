@@ -1,0 +1,44 @@
+package Week1_Day2;
+
+public class assignment_1 
+{	
+	
+	
+int input = 13;
+int count = 0;
+
+
+public void primeNumber() {
+for (count = 1; count <= input; count++ )
+
+{
+	if (input % 2 <= 0)
+	{
+	count = count+1;	
+	}	
+}
+
+
+
+if (count == 2)
+	{
+	System.out.println("Given number is a prime number");
+	}
+else
+	{
+	System.out.println("Given number is not a prime number");
+	}
+
+}
+	public static void main(String[] args) 
+	{
+		assignment_1 Prime = new assignment_1();
+		
+		Prime.primeNumber();
+	}
+
+}
+
+
+// Im not quite sure I understand this, I know I'm missing something in this code'
+// It keeps printing given number is not a prime member
