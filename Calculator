@@ -1,0 +1,47 @@
+package Week1_Day2;
+
+public class Calculator 
+{
+
+public static int a = 10;
+public static int b = 5;
+
+
+public  void Addition()
+{
+	int sum = a + b;
+	System.out.println("The sum of a + b is " + sum);
+}
+
+
+public void Subbtraction()
+{
+	int sum = a - b;
+	System.out.println("The answer of a - b  is " + sum);
+}
+
+
+public void Multiplication() 
+{
+	int sum = a * b;
+	System.out.println("The sum of a x b is " + sum);
+}
+
+
+public void Division()
+{
+	int sum = a / b;
+	System.out.println("The sumb of a / b is " + sum) ;
+}
+	
+	public static void main(String[] args) 
+	{
+		Calculator input = new Calculator();
+		
+		input.Addition();
+		input.Subbtraction();
+		input.Multiplication();
+		input.Division();
+	}
+
+}
